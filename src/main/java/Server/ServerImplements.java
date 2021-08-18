@@ -6,6 +6,7 @@
 package Server;
 
 import RMI.RemoteInterface;
+import java.io.Serializable;
 import static java.lang.Integer.max;
 import static java.lang.Integer.min;
 import java.rmi.RemoteException;
@@ -16,7 +17,11 @@ import java.util.Random;
  *
  * @author annel
  */
-public class ServerImplements extends UnicastRemoteObject implements RemoteInterface {
+public class ServerImplements extends UnicastRemoteObject implements RemoteInterface, Serializable  {
+    
+    // número de versão do objeto remoto - objeto passivel de ser serializado
+    // ou seja, pode ser enviado pela rede
+    // private static final long serialVersionUID = 1L;
     
     public ServerImplements() throws RemoteException {
         super();

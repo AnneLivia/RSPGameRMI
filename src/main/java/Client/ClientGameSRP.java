@@ -335,8 +335,8 @@ public class ClientGameSRP extends javax.swing.JFrame {
             // obtem o registro RMI
             registro = LocateRegistry.getRegistry("127.0.0.1", 1099);
             // encontre o que foi guardado com o nome ppt (a interface)
-            s = (RemoteInterface) registro.lookup("ppt"); //ppt de pedra papel e tesoura
-
+            s = (RemoteInterface) registro.lookup("ppt"); // ppt de pedra papel e tesoura
+            
             System.out.println("Cliente Logado!");
 
             /* Create and display the form */
