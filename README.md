@@ -1,8 +1,8 @@
-# ComputerGraphics
-Programs developed while learning Computer Graphics concepts with OpenGL
+# Simple Rock, Scissors, Paper Game
+This game was developed to ilustrate the distributed objects concept, using RMI (Remote Method Invocation) from Java programming language. 
 
-## Basics
-  1. [Pac Man](https://github.com/AnneLivia/ComputerGraphics/tree/master/Pac%20Man): Simple squared pacman with triangular mouth and squared food XD <br/>
-<p align="center"> 
-  <img src="_imagens/interface1.png" alt="RockScissorsPaperInterface1"/>
+## Interface
+<p align="center">
+  <img src="_imagem/interface1.png" alt="RockScissorsPaperInterface1"/>
+  <img src="_imagem/interface2.png" alt="RockScissorsPaperInterface1"/>
 </p>
